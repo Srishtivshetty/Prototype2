@@ -16,7 +16,7 @@ public class DetectCollision : MonoBehaviour
     void Update()
     {
         //If an object goes past the players view in the game,remove that object
-         if (transform.position.z > topBound)
+        \ if (transform.position.z > topBound)
         {
 
             Destroy(gameObject);
